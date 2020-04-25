@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+  font-family: "Noto Sans Regular", "open-sans", YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}

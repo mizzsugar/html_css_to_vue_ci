@@ -1,0 +1,21 @@
+{
+  "name": "html_css_to_vue_ci",
+  "version": "1.0.0",
+  "description": "html/cssをnuxtに置き換えるプロジェクトにおいて、もととなるhtml/cssをeslintのルールでlintします。",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .vue,  --max-warnings=0 .",
+    "lint-fix": "eslint --fix --ext .vue, --max-warnings=0 ."
+  },
+  "dependencies": {
+    "nuxt": "^2.12.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.2",
+    "@nuxtjs/eslint-module": "^1.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-nuxt": "^0.5.2",
+    "eslint-plugin-vue": "^6.2.2"
+  }
+}
